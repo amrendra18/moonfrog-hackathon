@@ -1,0 +1,24 @@
+# apk files
+*.apk
+*.ap_
+
+# dex files
+*.dex
+
+# built/generate files
+bin/
+gen/
+build/
+app/build/
+
+# local configuration files
+local.properties
+
+# AndroidStudio project files
+/.gradle/
+.gradle/
+
+# iml files
+
+# Misc
+.DS_STORE
