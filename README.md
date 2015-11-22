@@ -1,1 +1,1 @@
-# MoonFrog Hack: Grid Game
+# MoonFrog Hack: Fun With Dots

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:showIn="@layout/activity_game" tools:context="in.titans.funwithdots.GameActivity">
+
+
+    <in.titans.funwithdots.DotBoard
+        android:id="@+id/dot_board"
+        android:layout_width="360dp"
+        android:layout_height="360dp"
+         />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="151dp"
+        android:orientation="horizontal"
+        android:background="#34cccccc">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:layout_margin="15dp"
+            android:gravity="center"
+            android:text="0"
+            android:textSize="20dp"
+            android:background="@drawable/rounded_border_player1"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/p1_score_tv" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:layout_margin="15dp"
+            android:gravity="center"
+            android:text="0"
+            android:textSize="20dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/p2_score_tv" />
+    </LinearLayout>
+
+</LinearLayout>
